@@ -6,7 +6,7 @@ import unicodedata
 from pathlib import Path
 
 
-ROOT_PATH = Path(__file__).resolve().parents[1]
+ROOT_PATH = Path(__file__).resolve().parent
 DATA_SOURCES = [
     {
         "path": ROOT_PATH / "clean_data.csv",
