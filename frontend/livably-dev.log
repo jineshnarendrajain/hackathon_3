@@ -1,0 +1,17 @@
+
+> livably-frontend@0.1.0 dev
+> next dev -p 3000
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 1646ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.1s (490 modules)
+ GET / 200 in 3375ms
+ GET / 200 in 31ms
+ ✓ Compiled /loading-screen in 354ms (483 modules)
+ ○ Compiling /results ...
+ ✓ Compiled /results in 3.6s (2081 modules)

@@ -1,0 +1,5 @@
+fastapi
+uvicorn[standard]
+infrared-sdk==0.4.9
+python-dotenv
+numpy

@@ -1,0 +1,7 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\dhruv\\OneDrive\\Desktop\\IAAC - 2025\\SEM III\\HACKATHON _3\\backend']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [45224] using WatchFiles
+INFO:     Started server process [44400]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'infrared_service.py'. Reloading...

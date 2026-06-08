@@ -1,0 +1,9 @@
+INFO:     127.0.0.1:57390 - "GET /listings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54987 - "POST /analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57088 - "GET /listings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57088 - "GET /listings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57088 - "GET /listings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57088 - "GET /listings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57088 - "GET /listings HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58709 - "POST /analyze HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57088 - "POST /analyze HTTP/1.1" 200 OK
