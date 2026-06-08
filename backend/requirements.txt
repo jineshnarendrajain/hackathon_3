@@ -1,5 +1,6 @@
 fastapi
 uvicorn[standard]
+pydantic
 infrared-sdk==0.4.9
 python-dotenv
 numpy

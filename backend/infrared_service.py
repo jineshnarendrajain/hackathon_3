@@ -3,15 +3,6 @@ import base64
 import hashlib
 
 import numpy as np
-from infrared_sdk import InfraredClient
-from infrared_sdk.analyses.types import (
-    AnalysesName,
-    SolarModelRequest,
-    UtciModelBaseRequest,
-    UtciModelRequest,
-    WindModelRequest,
-)
-from infrared_sdk.models import Location, TimePeriod
 
 
 WIND_SPEED_MS = 4
@@ -281,6 +272,16 @@ def _fallback_analysis(polygon: dict, lat: float, lon: float, reason: Exception 
 
 
 def analyze_building(polygon: dict, lat: float, lon: float) -> dict:
+    from infrared_sdk import InfraredClient
+    from infrared_sdk.analyses.types import (
+        AnalysesName,
+        SolarModelRequest,
+        UtciModelBaseRequest,
+        UtciModelRequest,
+        WindModelRequest,
+    )
+    from infrared_sdk.models import Location, TimePeriod
+
     api_key = os.getenv("INFRARED_API_KEY")
     if not api_key or api_key == "your_key_here":
         return _fallback_analysis(
